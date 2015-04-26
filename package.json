@@ -1,24 +1,35 @@
 {
-	"name": "gitbook-plugin-fancybox",
-	"version": "1.0.0",
-	"description": "A gitbook plugin to show image by graceful jQuery fancy box",
-	"keywords": [
-		"gitbook",
-		"plugin",
-		"fancybox",
-		"image",
-		"jquery"
-	],
-	"engines": {
-		"gitbook": "*"
-	},
-	"author": {
-		"name": "LingyuCoder"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"cheerio": "^0.19.0",
-		"multiline": "^1.0.2",
-		"underscore": "^1.8.3"
-	}
+  "name": "gitbook-plugin-fancybox",
+  "version": "1.0.0",
+  "description": "A gitbook plugin to show image by graceful jQuery fancy box",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "fancybox",
+    "image",
+    "jquery"
+  ],
+  "engines": {
+    "gitbook": "*"
+  },
+  "author": "LingyuCoder",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "multiline": "^1.0.2",
+    "underscore": "^1.8.3"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LingyuCoder/gitbook-plugin-fancybox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LingyuCoder/gitbook-plugin-fancybox/issues"
+  },
+  "homepage": "https://github.com/LingyuCoder/gitbook-plugin-fancybox"
 }
