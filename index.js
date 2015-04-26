@@ -31,7 +31,7 @@ module.exports = {
     ],
     html: {
       'body:end': function() {
-        var config = _.defaults(this.options.pluginsConfig.codepen,
+        var config = _.defaults(this.options.pluginsConfig.fancybox,
           defaultConfig);
         return '<script>$(".fancybox").fancybox(JSON.parse(\'' + JSON.stringify(
           config) + '\'));</script>';
