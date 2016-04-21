@@ -31,5 +31,15 @@
   "bugs": {
     "url": "https://github.com/LingyuCoder/gitbook-plugin-fancybox/issues"
   },
-  "homepage": "https://github.com/LingyuCoder/gitbook-plugin-fancybox"
+  "homepage": "https://github.com/LingyuCoder/gitbook-plugin-fancybox",
+  "gitbook": {
+    "properties": {
+      "helpers": {
+        "type": "object",
+        "default": {
+          "buttons": {}
+        }
+      }
+    }
+  }
 }

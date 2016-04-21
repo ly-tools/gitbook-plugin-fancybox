@@ -3,12 +3,6 @@ var cheerio = require('cheerio');
 var _ = require('underscore');
 var multiline = require('multiline');
 
-var defaultConfig = {
-  helpers: {
-    buttons: {}
-  }
-};
-
 var template = _.template(multiline(function() {
   /*
      <a href="<%= url %>" title="<%= title %>" class="fancybox">
