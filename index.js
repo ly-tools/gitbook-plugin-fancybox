@@ -23,20 +23,13 @@ module.exports = {
     js: [
       'jquery.min.js',
       'jquery.fancybox.pack.js',
-      'jquery.fancybox-buttons.js'
+      'jquery.fancybox-buttons.js',
+      'plugin.js'
     ],
     css: [
       'jquery.fancybox.css',
       'jquery.fancybox-buttons.css'
-    ],
-    html: {
-      'body:end': function() {
-        var config = _.defaults(this.options.pluginsConfig.fancybox,
-          defaultConfig);
-        return '<script>$(".fancybox").fancybox(JSON.parse(\'' + JSON.stringify(
-          config) + '\'));</script>';
-      }
-    }
+    ]
   },
   hooks: {
     page: function(page) {
