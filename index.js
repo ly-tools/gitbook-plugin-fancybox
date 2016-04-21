@@ -27,17 +27,18 @@ module.exports = {
   },
   hooks: {
     page: function(page) {
-      _.each(page.sections, function(section) {
-        var $ = cheerio.load(section.content);
-        $('img').each(function(index, img) {
-          var $img = $(img);
-          $img.replaceWith(template({
-            url: $img.attr('src'),
-            title: $img.attr('alt')
-          }));
-        });
-        section.content = $.html();
+      var $ = cheerio.load(page.content);
+
+      $('img').each(function(index, img) {
+        var $img = $(img);
+        $img.replaceWith(template({
+          url: $img.attr('src'),
+          title: $img.attr('alt')
+        }));
       });
+
+      page.content = $.html();
+
       return page;
     }
   }
