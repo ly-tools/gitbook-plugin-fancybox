@@ -1,8 +1,8 @@
 # gitbook-plugin-fancybox
 
-[![Build Status](https://travis-ci.org/LingyuCoder/gitbook-plugin-fancybox.png)](https://travis-ci.org/LingyuCoder/gitbook-plugin-fancybox)
-[![Dependency Status](https://david-dm.org/LingyuCoder/gitbook-plugin-fancybox.svg)](https://david-dm.org/LingyuCoder/gitbook-plugin-fancybox)
-[![devDependency Status](https://david-dm.org/LingyuCoder/gitbook-plugin-fancybox/dev-status.svg)](https://david-dm.org/LingyuCoder/gitbook-plugin-fancybox#info=devDependencies)
+[![Build Status](https://travis-ci.org/ly-tools/gitbook-plugin-fancybox.png)](https://travis-ci.org/ly-tools/gitbook-plugin-fancybox)
+[![Dependency Status](https://david-dm.org/ly-tools/gitbook-plugin-fancybox.svg)](https://david-dm.org/ly-tools/gitbook-plugin-fancybox)
+[![devDependency Status](https://david-dm.org/ly-tools/gitbook-plugin-fancybox/dev-status.svg)](https://david-dm.org/ly-tools/gitbook-plugin-fancybox#info=devDependencies)
 [![NPM version](http://img.shields.io/npm/v/gitbook-plugin-fancybox.svg?style=flat-square)](http://npmjs.org/package/gitbook-plugin-fancybox)
 [![node](https://img.shields.io/badge/node.js-%3E=_0.12-green.svg?style=flat-square)](http://nodejs.org/download/)
 [![License](http://img.shields.io/npm/l/gitbook-plugin-fancybox.svg?style=flat-square)](LICENSE)
