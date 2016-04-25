@@ -32,6 +32,9 @@
     "url": "https://github.com/ly-tools/gitbook-plugin-fancybox/issues"
   },
   "homepage": "https://github.com/ly-tools/gitbook-plugin-fancybox",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "gitbook": {
     "properties": {
       "helpers": {
