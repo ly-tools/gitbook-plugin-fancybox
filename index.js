@@ -5,7 +5,7 @@ var multiline = require('multiline');
 
 var template = _.template(multiline(function() {
   /*
-     <a href="<%= url %>" title="<%= title %>" target="_self" class="fancybox">
+     <a href="<%= url %>" rel="grouped" title="<%= title %>" target="_self" class="fancybox">
        <img src="<%= url %>" alt="<%= title %>"></img>
      </a>
    */
