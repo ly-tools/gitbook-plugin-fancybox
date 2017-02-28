@@ -16,6 +16,7 @@ module.exports = {
     assets: './assets',
     js: [
       'jquery.min.js',
+      'jquery.mousewheel.pack.js',
       'jquery.fancybox.pack.js',
       'jquery.fancybox-buttons.js',
       'plugin.js'
