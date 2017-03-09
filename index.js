@@ -5,7 +5,7 @@ var multiline = require('multiline');
 
 var template = _.template(multiline(function() {
   /*
-     <a href="<%= url %>" title="<%= title %>" target="_self" class="fancybox">
+     <a href="<%= url %>" rel="grouped" title="<%= title %>" target="_self" class="fancybox">
        <img src="<%= url %>" alt="<%= title %>"></img>
      </a>
    */
@@ -16,6 +16,7 @@ module.exports = {
     assets: './assets',
     js: [
       'jquery.min.js',
+      'jquery.mousewheel.pack.js',
       'jquery.fancybox.pack.js',
       'jquery.fancybox-buttons.js',
       'plugin.js'
