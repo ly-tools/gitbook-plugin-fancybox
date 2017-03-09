@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-fancybox",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A gitbook plugin to show image by graceful jQuery fancy box",
   "keywords": [
     "gitbook",
